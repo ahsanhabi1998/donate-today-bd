@@ -1,3 +1,31 @@
-h1 {
-    color: red;
+/* common style*/
+.btn {
+    font-weight: 700;
+    color: white;
+    background-color: orangered;
+    padding: 15px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+
+.banner {
+    background-image: url(images/donation5.jpg);
+    height: 650px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    color: white;
+    width: 550px;
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
 }
